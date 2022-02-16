@@ -1,0 +1,61 @@
+{
+  "productos": [
+    {
+      "id": 0,
+      "nombre": "espada",
+      "descripcion": "espada",
+      "img": "espadastrider-aragorn-espadamontaraz-espadasmedias-00123.png",
+      "precio": "1",
+      "cantidad": "1"
+    },
+    {
+      "id": 3,
+      "nombre": "palmera",
+      "descripcion": "palmera de miami",
+      "img": "1625082d93f94d218fb4d3d71d648a1e.jpg",
+      "precio": "1500",
+      "cantidad": "1"
+    },
+    {
+      "id": 4,
+      "nombre": "crucero",
+      "descripcion": "crucero por las aguas articas",
+      "img": "barco-lujoso,-alta-mar-2310591012.jpg",
+      "precio": "3000",
+      "cantidad": "1"
+    },
+    {
+      "id": 5,
+      "nombre": "arco",
+      "descripcion": "arco con flechas",
+      "img": "arrow_bow_PNG434.png",
+      "precio": "300",
+      "cantidad": "10"
+    },
+    {
+      "id": 6,
+      "nombre": "diamante",
+      "descripcion": "diamante en bruto de alta calidad",
+      "img": "diamante.png",
+      "precio": "1000000",
+      "cantidad": "1"
+    },
+    {
+      "id": 7,
+      "nombre": "calavera",
+      "descripcion": "calavera de triceratops",
+      "img": "Trike_Bone_Helmet_Skin.png",
+      "precio": "20500000",
+      "cantidad": "1"
+    }
+  ],
+  "clientes": {},
+  "ventas": [],
+  "usuarios": [
+    {
+      "usuario": "daniel",
+      "password": "78d8045d684abd2eece923758f3cd781489df3a48e1278982466017f"
+    }
+  ],
+  "contador": 7
+}

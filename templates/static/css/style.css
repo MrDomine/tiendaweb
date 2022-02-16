@@ -1,0 +1,50 @@
+*{
+    border: 1px solid black;
+}
+
+#productosDisponibles div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#productosDisponibles div article{
+    width:30%;
+}
+
+article img{
+    width: 100%;
+}
+
+h4{
+    text-align: center;
+}
+
+.imgPoke{
+    width:30%;
+    display: block;
+    margin: 0 auto;
+}
+
+#productosNoDisponibles div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sesion{
+    text-align: right;
+    margin-right: 2%;
+}
+
+.sesion div img{
+    width:20px;
+}
+
+.datosUsuario{
+    display: none !important;
+}
+
+.sesion>div{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}

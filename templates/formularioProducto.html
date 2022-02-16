@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario productos</title>
+    <link rel="stylesheet" href="static/css/productos.css">
+    <script src="static/js/productos.js"></script>
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Formulario Productos</h1>
+        <form method="post" action="" enctype="multipart/form-data">
+            <input type="hidden" name="idProducto" id="idProducto">
+            <label for="nombreProducto">Nombre producto:</label>
+            <input type="text" name="nombre" id="nombre" class="texto" required>
+            <label for="descripcion">Descripcion producto:</label>
+            <textarea name="descripcion" id="descripcion" rows="4" class="texto" required></textarea>
+            <label for="precio">Precio</label>
+            <input type="number" name="precio" id="precio" min="0" step="0.01">
+            <label for="cantidad">Cantidad</label>
+            <input type="number" name="cantidad" id="cantidad" min="0">
+            <label for="imagen">Imagen producto: <input type="file" name="imagen" id="imagen" required></label>
+            <label id="acepto" for="crear"><input type="checkbox" name="crear" id="crear" required> Acepto dar de alta el producto</label>
+            <input type="submit" value="Enviar" id="btn">
+        </form>
+    </div>
+    <div id="creados">
+
+    </div>
+</body>
+</html>
